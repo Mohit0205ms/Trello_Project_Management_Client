@@ -35,7 +35,7 @@ export default function LoginPage() {
       <div className='max-w-md w-full space-y-8 p-8 bg-white rounded-lg shadow-md'>
         <div>
           <h2 className='text-center text-3xl font-bold text-gray-900'>
-            Sign in to your account
+            Signn in to your accouunt
           </h2>
         </div>
         <form className='mt-8 space-y-6' onSubmit={handleSubmit}>
@@ -51,7 +51,7 @@ export default function LoginPage() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className='appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm'
+                className='appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm text-black'
                 placeholder='Email address'
               />
             </div>
